@@ -1,6 +1,7 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Titilayo Tijani",
+	"description": "A boilerplate for learning how to use npm and package.json",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
