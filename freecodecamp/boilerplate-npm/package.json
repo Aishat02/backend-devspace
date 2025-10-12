@@ -1,24 +1,24 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"author": "Titilayo Tijani",
-	"description": "A boilerplate for learning how to use npm and package.json",
-	"keywords": [
-		"freecodecamp",
-		"boilerplate",
-		"npm"
-	],
-	"license": "MIT",
-	"version": "1.0",
-	"dependencies": {
-		"express": "^4.14.0",
-		"@freecodecamp/example": "^1.0.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
-	}
+  "name": "fcc-learn-npm-package-json",
+  "author": "Titilayo Tijani",
+  "description": "A boilerplate for learning how to use npm and package.json",
+  "keywords": [
+    "freecodecamp",
+    "boilerplate",
+    "npm"
+  ],
+  "license": "MIT",
+  "version": "1.0",
+  "dependencies": {
+    "express": "^4.14.0",
+    "@freecodecamp/example": "~1.2.13"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+  }
 }
