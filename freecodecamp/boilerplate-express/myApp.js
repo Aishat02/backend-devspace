@@ -1,39 +1,8 @@
-let express = require('express');
+let express = require("express");
 let app = express();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- module.exports = app;
+app
+  .get("/", function (req, res) {
+    res.send("Hello Express");
+  })
+  .listen(8080, () => console.log("Server is running"));
